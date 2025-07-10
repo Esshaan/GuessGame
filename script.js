@@ -55,6 +55,7 @@ check.addEventListener('click', function(){
     if(userInput === random){
         display.message("Hooray! You Win.");
         display.ansBox(random);
+        document.querySelector('body').style.backgroundColor = "#56f041";
         
         if(cScore > highScore){
             highScore = cScore;
@@ -84,4 +85,6 @@ yes.addEventListener('click', function(){
 no.addEventListener('click', function(){
     popup.classList.add("hidden");
 });
+
+
 
