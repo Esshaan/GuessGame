@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+
+}
+
+body{
+    background-color: #5a606a;
+    position: relative;
+}
+
+.top{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.mid{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bottom{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.again{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.btn{
+    border-style: solid;
+    /* border-radius: 20px; */
+    border-width: 0px;
+    font-weight: bold;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+}
+
+.ansBox{
+    padding: 30px;
+    background-color: #ffffff;
+    height: fit-content;
+    font-size: 30px;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border-radius: 20px; */
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+}
+
+.flexAgain{
+    width: 45%;
+    padding: 10px;
+}
+
+.flexAns{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userInput{
+    height: 20%;
+    border-width: 0px;
+    /* border-radius: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+}
+
+.ansCheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.scoreBoard{
+    color: #ffffff;
+}
+
+.popup{
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    border-width: 0px;
+    /* border-radius: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.decisionBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yes{
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #5a606a;
+}
+
+.no{
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #5a606a;
+}
+
+.hidden{
+    display: none;
+}
+
+.restartMsg{
+    display: flex;
+    justify-content: center;
+}
