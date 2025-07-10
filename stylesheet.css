@@ -57,6 +57,14 @@ body{
     border-color: black;
 }
 
+.btn:hover{
+    transform: scale(110%,110%);
+}
+
+.btn:active{
+    transform: scale(100%,100%);
+}
+
 .ansBox{
     padding: 30px;
     background-color: #ffffff;
@@ -112,7 +120,12 @@ body{
 }
 
 .scoreBoard{
-    color: #ffffff;
+    color: rgb(49, 49, 50);
+    background-color: white;
+    padding: 20px;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
 }
 
 .popup{
