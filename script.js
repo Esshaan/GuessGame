@@ -25,6 +25,7 @@ const reset = function(){
     display.score(cScore);
     display.message("Start Guessing!");
     display.ansBox("?");
+    document.querySelector('body').style.backgroundColor = "#5a606a";
 
 }
 
@@ -85,6 +86,4 @@ yes.addEventListener('click', function(){
 no.addEventListener('click', function(){
     popup.classList.add("hidden");
 });
-
-
 
